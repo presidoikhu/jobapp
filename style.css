@@ -72,6 +72,7 @@ textarea{
         width: 200px;
         margin-left: 90%;
         color: #1E1E1E;
+        font-weight: bolder;
    
     }
 .move-left{
@@ -122,6 +123,20 @@ textarea{
     
 }
 
+
 a{
     color: #45FFCA;
 }
+
+input{
+    background-color: #6D6D6D;
+}
+
+textarea{
+    background-color: #6D6D6D;
+}
+select{
+    background-color: #6D6D6D;
+}
+
+
