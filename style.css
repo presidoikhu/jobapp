@@ -4,6 +4,7 @@ body {
     width: 960px;
     display: flex;
     justify-content: center;
+    color: white;
 
     background-image: linear-gradient(to right, #45FFCA , #FEFFAC);
 
@@ -13,7 +14,7 @@ body {
 .container {
     text-align: center;
     font-size: 20px;
-    background-color: aqua;
+    background-color: #1E1E1E;
     width: 960px;
     height: 900px;
     margin-left: 300px;
@@ -63,13 +64,14 @@ textarea{
     }
 
     .sub-style{
-        background-color: #b40e0e;
+        background-color: #45FFCA;
         color:#eee;
         cursor: pointer;
         text-transform: uppercase;
         height: 30px;
         width: 200px;
         margin-left: 90%;
+        color: #1E1E1E;
    
     }
 .move-left{
@@ -120,3 +122,6 @@ textarea{
     
 }
 
+a{
+    color: #45FFCA;
+}
