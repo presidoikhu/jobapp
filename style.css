@@ -138,5 +138,8 @@ textarea{
 select{
     background-color: #6D6D6D;
 }
+::placeholder{
+    color: #45FFCA;
+}
 
 
