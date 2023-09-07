@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section class="container">
+<section >
+    
+        <h2>Job Application Form </h2>
+        <h1>Please Fill Out the Form Below to Submit Your Job Application!</h1>
+        <hr>
+        <ul>
+            <li>
+                <form action="form-processor-job.html" method="get">
+                    <label for="name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required autofocus 
+                    placeholder="Example: james stuart" pattern="[a-zA-z0-9]+\s+[a-zA-z]+">
+            </li>
+            <li class="move-in">
+                <label for="email">Email<span class="required">*</span></label>
+                <input type="email"  id="email" name="email" required placeholder="example@domain.com"
+                pattern="[a-zA-z0-9_.]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,6}">
+
+            </li>
+        </ul>
+       
+
+            
+             <ul class="check">
+                
+                    <li >
+                        <label for="tel">Number<span class="required">(Optional)</span></label>
+                        <input type="tel" id="tel" name="tel" required placeholder="09075874858">
+            </li>
+            
+            
+            <li class="move-in" id="shift-right">
+                <label for="file">Upload Resume<span class="required">*</span></label>
+                <input type="file" id="file" name="file"  required>
+            </li>
+
+            </ul>
+         
+                     
+            <ul class="check2">
+                
+                <li >
+                    <div class="form-group">
+                        <label for="jobPosition">Preferred Job Position:</label>
+                        <select id="jobPosition" name="jobPosition" required>
+                            <option value="developer">Developer</option>
+                            <option value="designer">Designer</option>
+                            <option value="manager">Manager</option>
+                            <option value="analyst">Analyst</option>
+                        </select>
+                    </div>
+        </li>
+        
+        
+        <li class="move-in" id="shift-right2">
+            <label for="message">Educational Background<span class="required">*</span></label>
+            <textarea  id="message" cols="20" rows="1" name="message" required placeholder="Type here"></textarea>
+
+        </li>
+
+        </ul>
+
+        <ul>
+            <li>
+                
+                <label class="remove-top" >Skills<span class="required">*</span></label><br>
+                <div id="skill-adjust">
+                <div class="fly1" >
+                <input type="checkbox" id="skill1" name="skills" value="HTML" class="move-left">
+                <label for="skill1">HTML</label>
+                </div>
+                <div class="fly1">
+                <input type="checkbox" id="skill2" name="skills" value="CSS" class="move-left">
+                <label for="skill2">CSS</label>
+                </div>
+                <div class="fly1">
+                <input type="checkbox" id="skill3" name="skills" value="JavaScript" class="move-left">
+                <label for="skill3">JavaScript</label>
+            </div>
+        </div>
+            </li>
+
+            <li class="move-in">
+                
+                <label class="remove-top" >Years of Experience<span class="required">*</span></label><br>
+                <div id="skill-adjust2">
+                <div class="fly1" >
+                    <input type="radio" id="exp1" name="experience" value="0-1 " class="move-left">
+                    <label for="exp1">0-1 yrs</label>
+                </div>
+                <div class="fly1">
+                    <input type="radio" id="exp2" name="experience" value="2-5" class="move-left">     
+                     <label for="exp2">2-5 yrs</label>
+                </div>
+                    <div class="fly1">
+                    <input type="radio" id="exp3" name="experience" value="5+" class="move-left">
+                    <label for="exp3">5+ yrs</label>
+                </div>
+
+            </div>
+
+            </li>
+        </ul>
+
+          <ul>
+            <li><label >Are you willing to relocate?</label>
+                <div class="fly1">
+                <input type="radio" id="relocate1" name="relocate" value="Yes"class="move-left">
+                <label for="relocate1" class="move-right">Yes</label>
+                </div>
+                <div class="fly1">
+                <input type="radio" id="relocate2" name="relocate" value="No" class="move-left">
+                <label for="relocate2"  class="move-right"></label>No</label>
+                </div>
+
+            </li>
+          </ul>
+           
+          <ul>
+            <li>
+                <input type="submit" value="Submit" class="sub-style">
+            </li>
+          </ul>
+
+        </form>
+
+     
+
+</section>
+       
+</body>
+</html>
