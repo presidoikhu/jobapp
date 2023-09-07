@@ -68,11 +68,12 @@ textarea{
         color:#eee;
         cursor: pointer;
         text-transform: uppercase;
-        height: 30px;
+        height: 40px;
         width: 200px;
         margin-left: 90%;
         color: #1E1E1E;
         font-weight: bolder;
+        border-radius: 10px;
    
     }
 .move-left{
