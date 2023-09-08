@@ -74,6 +74,7 @@ textarea{
         color: #1E1E1E;
         font-weight: bolder;
         border-radius: 10px;
+        
    
     }
 .move-left{
@@ -144,3 +145,7 @@ select{
 }
 
 
+.sub-style:hover {
+    background-color: #6D6D6D;
+  }
+  
